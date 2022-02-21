@@ -1,0 +1,27 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "UserController",
+        "version": "0.1"
+    },
+    "paths": {
+        "/blog/public/api/users": {
+            "get": {
+                "tags": [
+                    "users"
+                ],
+                "summary": "Get list of users",
+                "description": "return list of user",
+                "operationId": "a3d9224243587516c184b3cd22b6ab65",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
