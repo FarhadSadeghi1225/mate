@@ -6,9 +6,6 @@ use Facades\Spatie\Referer\Referer;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/debug-sentry', function () {
-    throw new Exception('My first Sentry error!');
-});
 
 
 
